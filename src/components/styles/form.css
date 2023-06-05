@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+
+.rick-and-morty-section {
+    margin: 20px;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.rick-and-morty-form {
+    display: flex;
+    align-items: center;
+}
+
+.rick-and-morty-input {
+    padding: 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+@media (min-width: 768px) {
+    .rick-and-morty-input {
+        padding: 0.7rem;
+        margin-right: 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        transition: transform 0.3s ease;
+    }
+
+    .rick-and-morty-input:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+.rick-and-morty-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00bfff;
+    color: #fff;
+    cursor: pointer;
+}
+
+.rick-and-morty-button:hover {
+    background-color: #61DAFB;
+}
+
+.rick-and-morty-error {
+    color: white;
+    margin-top: 10px;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.require_imput {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.letre_require {
+    padding: .7rem;
+    font-size: 1rem;
+    align-items: center;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+}
+
+.letre_require span {
+    color: red;
+    font-size: 1.3rem;
+}

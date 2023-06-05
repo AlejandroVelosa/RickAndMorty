@@ -1,0 +1,36 @@
+.erro {
+    background-color: rgba(255, 0, 0, 0.615);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+    font-size: 1rem;
+    animation: shadowAnimationError 3s infinite;
+
+}
+
+.erro_title {
+    padding-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@keyframes shadowAnimationError {
+    0% {
+        box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.82);
+    }
+
+    50% {
+        box-shadow: 0 0.4em 0.8em rgba(255, 0, 0, 0.615);
+    }
+
+    100% {
+        box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.82);
+    }
+}

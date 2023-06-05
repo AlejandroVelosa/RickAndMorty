@@ -1,0 +1,39 @@
+.location_title {
+    color: rgb(16, 236, 16);
+    font-family: 'Creepster', cursive;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+.location_ul {
+    gap: 1.7rem;
+    display: flex;
+}
+
+.location_info {
+    width: 90%;
+    max-width: 500px;
+    background-color: #062226;
+    box-shadow: 0 0.4em 0.8em #000505d2;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    animation: shadowAnimation 3s infinite;
+
+}
+
+.locarion_li {
+    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    color: white;
+}
+
+.locarion_li .locarion_span {
+    color: rgb(170, 167, 167);
+    font-size: 0.5;
+}
