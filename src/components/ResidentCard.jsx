@@ -1,6 +1,6 @@
 import { useEffect } from "react"
 import useFetch from "../hooks/useFetch"
-import "./styles/ResidentCard.css"
+import "./styles/residentCard.css"
 
 
 const ResidentCard = ({ url }) => {
