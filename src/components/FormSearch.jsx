@@ -15,7 +15,9 @@ const FormSearch = ({ setIdLocation }) => {
         if (inputValue === '') {
             setInputIsEmpty(true)
 
-
+            setTimeout(() => {
+                setInputIsEmpty(false)
+            }, 2000);
         } else {
             setIdLocation(inputValue)
         }
