@@ -8,6 +8,7 @@ import FormSearch from './components/FormSearch';
 import IsLoading from './components/IsLoading';
 import ErrorComponent from './components/ErrorComponent';
 
+
 function App() {
   const randomId = getRandomNumber(126);
   const [idLocation, setIdLocation] = useState(randomId);
@@ -23,13 +24,13 @@ function App() {
       <section className='app ' >
         <header className='app_img'>
         </header>
-        <nav className='imput'>
-          <h2 className='imput_title'>rick and morty</h2>
-          <div>
-            <FormSearch setIdLocation={setIdLocation} />
-          </div>
-        </nav>
-        <main className='app_main '>
+        <main className='app_main'>
+          <nav className='imput'>
+            <h2 className='imput_title'>rick and morty</h2>
+            <div>
+              <FormSearch setIdLocation={setIdLocation} />
+            </div>
+          </nav>
           {hasError ? (
             < ErrorComponent />
           ) : loading ? (
@@ -47,6 +48,7 @@ function App() {
             </>
           )}
         </main>
+
       </section>
       <footer>
         <header>

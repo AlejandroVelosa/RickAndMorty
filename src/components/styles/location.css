@@ -7,19 +7,18 @@
 }
 
 .location_ul {
-    gap: 1.7rem;
+    gap: 1.3rem;
     display: flex;
 }
 
 .location_info {
-    width: 90%;
+    width: 95%;
     max-width: 500px;
-    background-color: #062226;
+    background-color: #0622269e;
     box-shadow: 0 0.4em 0.8em #000505d2;
     padding: 2rem;
     margin-bottom: 1rem;
     animation: shadowAnimation 3s infinite;
-
 }
 
 .locarion_li {
@@ -29,7 +28,7 @@
     justify-content: space-around;
     text-align: center;
     align-items: center;
-    gap: 1rem;
+    gap: .6rem;
     color: white;
 }
 

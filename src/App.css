@@ -22,9 +22,13 @@
 }
 
 .app_main {
-    background-color: #062226;
+    background-image: url("https://media2.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e47u5s5fnc6fjsfq626vpii6ujabx4q230jy6d4ui37&ep=v1_gifs_search&rid=giphy.gif&ct=g");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
     height: 100%;
+    padding: 1rem;
 }
 
 .location_info {
@@ -49,11 +53,11 @@
     max-width: 1024px;
     margin: 0 auto;
     padding: 1rem;
-    background-color: #062226;
+    background-color: transparent;
 }
 
 .imput {
-    background-color: #042023d2;
+    background-color: transparent;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -110,12 +114,11 @@
 }
 
 body {
-    background-color: #062226;
+    background-color: black;
 }
 
 footer {
-    background-color: #062226;
-    height: 40vh;
+    background-color: black;
     display: flex;
     text-align: center;
     align-items: center;
@@ -125,20 +128,34 @@ footer {
     gap: 2rem;
     font-family: 'Creepster', cursive;
     font-size: 1.5rem;
-    animation: shadowAnimation 3s infinite;
-    margin-top: 1rem;
+    box-shadow: 0 0.4em 0.8em rgba(16, 236, 16, 0.85);
 }
 
 footer header {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+
+}
+
+footer h3 {
+    padding: 1rem;
+    margin-top: 1rem;
+    color: rgba(16, 236, 16, 0.85);
+}
+
+footer p {
+    color: #61DAFB;
+}
+
+footer i {
+    color: #61DAFB;
 }
 
 footer div {
     display: flex;
     justify-content: space-between;
-    gap: 10rem;
+    gap: 6rem;
     font-size: 2.5rem;
     cursor: pointer;
 }

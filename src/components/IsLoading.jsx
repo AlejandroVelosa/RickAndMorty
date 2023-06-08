@@ -1,9 +1,7 @@
 
 const IsLoading = () => {
     return (
-        <div class="spinner">
-            <div class="spinner1"></div>
-        </div>
+        <span class="loader"></span>
     )
 }
 
